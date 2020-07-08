@@ -5,7 +5,7 @@ image: Visual Studio 2019
 configuration: Release
 dotnet_csproj:
   patch: true
-  file: ./src/HGV.Divine.csproj
+  file: '**\*.csproj'
   version: '{version}'
   version_prefix: '{version}'
   package_version: '{version}'
@@ -13,9 +13,9 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-- cmd: nuget restore ./HGV.Divine.sln
+- cmd: nuget restore .\HGV.Divine.sln
 build:
-  project: ./HGV.Divine.sln
+  project: .\HGV.Divine.sln
   publish_nuget: true
   verbosity: minimal
 deploy:
