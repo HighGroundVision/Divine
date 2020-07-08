@@ -2,6 +2,12 @@
   
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>TrueSkill ranking system for playing ranking, leadering board and match quality</Description>
+    <Company>High Ground Vision</Company>
+    <Authors>RGBKnights</Authors>
+    <RepositoryUrl>https://github.com/HighGroundVision/Divine</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   
   
