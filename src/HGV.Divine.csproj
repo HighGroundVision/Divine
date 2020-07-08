@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>TrueSkill ranking system for playing ranking, leadering board and match quality</Description>
-    <Company>High Ground Vision</Company>
+    <Version>1.1.0</Version>
     <Authors>RGBKnights</Authors>
+    <Company>High Ground Vision</Company>
+    <Copyright>Venatio Studios 2018</Copyright>
     <RepositoryUrl>https://github.com/HighGroundVision/Divine</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
